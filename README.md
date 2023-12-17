@@ -15,7 +15,7 @@ The project employs machine learning techniques, including LSTM networks and Glo
 - Analyzes emotions in discussions related to societal movements
 - Delves into nuanced emotions like fear, joy, and sadness
 - Utilizes NLTK, Gensim, and machine learning for sentiment analysis
-- Achieves a robust accuracy of 93% in discerning complex emotions
+- Achieves a robust accuracy of 94.95% in discerning complex emotions
 
 ## Installation and Usage
 
