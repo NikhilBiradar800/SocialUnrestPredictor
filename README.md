@@ -25,7 +25,7 @@ The project employs machine learning techniques, including LSTM networks and Glo
 
 ## Dataset
 
-The project uses a curated dataset sourced from Reddit discussions related to critical societal movements. The dataset includes various threads and posts expressing diverse sentiments and emotions.
+The project uses a curated dataset sourced from Reddit discussions related to critical societal movements and an another dataset was picked up form the kaggle website to train the model. The dataset includes various threads and posts expressing diverse sentiments and emotions.
 
 ## Contributions and Feedback
 
