@@ -13,7 +13,7 @@ nltk.download('vader_lexicon')
 # Initializing Reddit API with your credentials
 reddit = praw.Reddit(client_id='dhdghdx',
                      client_secret='yfyfjmfu',
-                     user_agent='SocialMediaUnrest')
+                     user_agent='SocialMediaUnrest')   #Replace the credentials
 
 # Defining the subreddits related to your case study
 subreddits = ['BlackLivesMatter', 'stopasianhate', 'immigration']
@@ -23,8 +23,8 @@ sia = SentimentIntensityAnalyzer()
 
 # Using Function for text preprocessing
 def preprocess_text(text):
-    text = re.sub(r'http\S+', '', text)  # Remove links
-    text = re.sub(r'[^\w\s]', '', text)  # Remove special characters
+    text = re.sub(r'http\S+', '', text) 
+    text = re.sub(r'[^\w\s]', '', text) 
     return text
 
 # Initializing variables for aggregated sentiment scores
