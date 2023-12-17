@@ -11,9 +11,9 @@ from transformers import pipeline
 nltk.download('vader_lexicon')
 
 # Initializing Reddit API with your credentials
-reddit = praw.Reddit(client_id='GzqhRVQ24a9sbSv82omNtg',
-                     client_secret='v9d7LTyEW8dLw6Ur8ZNySiXb5flZxg',
-                     user_agent='socialMediaUnrest')
+reddit = praw.Reddit(client_id='dhdghdx',
+                     client_secret='yfyfjmfu',
+                     user_agent='SocialMediaUnrest')
 
 # Defining the subreddits related to your case study
 subreddits = ['BlackLivesMatter', 'stopasianhate', 'immigration']
